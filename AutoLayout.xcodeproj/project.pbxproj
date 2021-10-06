@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		041755FB2708EFFA00920EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041755FA2708EFFA00920EA0 /* AppDelegate.swift */; };
-		041755FD2708EFFA00920EA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041755FC2708EFFA00920EA0 /* SceneDelegate.swift */; };
-		041755FF2708EFFA00920EA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041755FE2708EFFA00920EA0 /* ViewController.swift */; };
-		041756022708EFFA00920EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041756002708EFFA00920EA0 /* Main.storyboard */; };
 		041756042708EFFB00920EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041756032708EFFB00920EA0 /* Assets.xcassets */; };
 		041756072708EFFB00920EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041756052708EFFB00920EA0 /* LaunchScreen.storyboard */; };
+		0417560F2708F05C00920EA0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417560E2708F05C00920EA0 /* ProfileViewController.swift */; };
+		041756112708F07500920EA0 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041756102708F07500920EA0 /* ContactsViewController.swift */; };
+		041756132708F09100920EA0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041756122708F09100920EA0 /* TableViewCell.swift */; };
+		041756152708F0AB00920EA0 /* ContactPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041756142708F0AB00920EA0 /* ContactPreviewView.swift */; };
+		041756172708F0C500920EA0 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041756162708F0C500920EA0 /* PreviewView.swift */; };
+		041756192708F0D800920EA0 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041756182708F0D800920EA0 /* TabBarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		041755F72708EFFA00920EA0 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041755FA2708EFFA00920EA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		041755FC2708EFFA00920EA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		041755FE2708EFFA00920EA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		041756012708EFFA00920EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041756032708EFFB00920EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041756062708EFFB00920EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041756082708EFFB00920EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0417560E2708F05C00920EA0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		041756102708F07500920EA0 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		041756122708F09100920EA0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		041756142708F0AB00920EA0 /* ContactPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPreviewView.swift; sourceTree = "<group>"; };
+		041756162708F0C500920EA0 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		041756182708F0D800920EA0 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				041755FA2708EFFA00920EA0 /* AppDelegate.swift */,
-				041755FC2708EFFA00920EA0 /* SceneDelegate.swift */,
-				041755FE2708EFFA00920EA0 /* ViewController.swift */,
-				041756002708EFFA00920EA0 /* Main.storyboard */,
+				0417560E2708F05C00920EA0 /* ProfileViewController.swift */,
+				041756102708F07500920EA0 /* ContactsViewController.swift */,
+				041756122708F09100920EA0 /* TableViewCell.swift */,
+				041756142708F0AB00920EA0 /* ContactPreviewView.swift */,
+				041756162708F0C500920EA0 /* PreviewView.swift */,
+				041756182708F0D800920EA0 /* TabBarVC.swift */,
 				041756032708EFFB00920EA0 /* Assets.xcassets */,
 				041756052708EFFB00920EA0 /* LaunchScreen.storyboard */,
 				041756082708EFFB00920EA0 /* Info.plist */,
@@ -127,7 +136,6 @@
 			files = (
 				041756072708EFFB00920EA0 /* LaunchScreen.storyboard in Resources */,
 				041756042708EFFB00920EA0 /* Assets.xcassets in Resources */,
-				041756022708EFFA00920EA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +146,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041755FF2708EFFA00920EA0 /* ViewController.swift in Sources */,
+				041756172708F0C500920EA0 /* PreviewView.swift in Sources */,
 				041755FB2708EFFA00920EA0 /* AppDelegate.swift in Sources */,
-				041755FD2708EFFA00920EA0 /* SceneDelegate.swift in Sources */,
+				0417560F2708F05C00920EA0 /* ProfileViewController.swift in Sources */,
+				041756192708F0D800920EA0 /* TabBarVC.swift in Sources */,
+				041756132708F09100920EA0 /* TableViewCell.swift in Sources */,
+				041756152708F0AB00920EA0 /* ContactPreviewView.swift in Sources */,
+				041756112708F07500920EA0 /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		041756002708EFFA00920EA0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				041756012708EFFA00920EA0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		041756052708EFFB00920EA0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,9 +298,9 @@
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,9 +326,9 @@
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
